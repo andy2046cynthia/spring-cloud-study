@@ -1,0 +1,22 @@
+
+[nfs]
+nfs_name = nfs
+nfs_common_path = /raid/aios-data
+nfs_service = fs.aios
+
+[glusterfs]
+glusterfs_name = glusterfs
+glusterfs_volume = test-volume
+glusterfs_endpoints = glusterfs-cluster
+
+[hostPath]
+hostPath_name = hostPath
+
+[configMap]
+configMap_name = configMap
+
+[log]
+log_dir = /aios-data/logs-jobhandler/
+log_filename = log_
+
+
